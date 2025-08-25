@@ -1,0 +1,79 @@
+/* Global Website Style for IslamicHub */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  background: rgba(0,0,0,0.7);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #fdd835;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fdd835;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 2.2em;
+  margin-bottom: 15px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  background: rgba(255,255,255,0.15);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.25);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #fdd835;
+}
+
+footer {
+  background: rgba(0,0,0,0.8);
+  padding: 15px;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
